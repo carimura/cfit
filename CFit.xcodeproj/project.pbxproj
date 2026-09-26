@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCC23AB59B0993360134587 /* CFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7153AE44156FB754D564BD /* CFitApp.swift */; };
+		1512E69FB40A6CF2D138321C /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE431C62BC6166E28268685 /* WorkoutSession.swift */; };
+		44589E6399F6AF625528D2BA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F940F08D08A4B2C7F96ACBDB /* SettingsView.swift */; };
+		46F2DA2C66C4B0E51822227E /* CFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7265CA734A9D2C03E7457660 /* CFitUITests.swift */; };
+		4E3D46C763954488D50071E8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697E104788107E323589C78 /* Models.swift */; };
+		89BC11FA14559B92CF3E0F68 /* WarmupPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E588560C1ACF5FDC4CA77259 /* WarmupPlan.swift */; };
+		A60AF42BE2A9D67AF698F586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D15569790DD3A7BA1764F0 /* Assets.xcassets */; };
+		ABD995B36F58467817406E15 /* WorkoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A181A65105F560E54F49AB /* WorkoutStore.swift */; };
+		B112DB66F16DF5648F82FAA1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE584F90FE064A326A0FF232 /* HomeView.swift */; };
+		B903B8DD3F56E52DF0702571 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD827238F81377B7235C6AF /* WorkoutView.swift */; };
+		C69788761D763347B9F902D5 /* WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F7E3F6DAE0066C26EB5AFB /* WorkoutTests.swift */; };
+		C6D6A85C9D9AD1FA9A0EDDB7 /* MovementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA11865E0555667CF8BE8A /* MovementDetailView.swift */; };
+		D08AB413F55D4172030FF17D /* interval.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48677B72D60B0FDD736AEC22 /* interval.wav */; };
+		F63722E0CAD776EDEC5FF7A2 /* countdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAF6E642FE8962166D613C47 /* countdown.wav */; };
+		FDC041128DF855A27815D34D /* MovementLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBFA3900A4F0BC70928227 /* MovementLibrary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8C776643DB39182DFCFAE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C45D1FCB8C1260B614F07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17058932CB9203A31E72FF2E;
+			remoteInfo = CFit;
+		};
+		EFC9CDA586A8E4330DC7EAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C45D1FCB8C1260B614F07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17058932CB9203A31E72FF2E;
+			remoteInfo = CFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD827238F81377B7235C6AF /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		18025386BAE38D3EB753AB8F /* CFitUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7153AE44156FB754D564BD /* CFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFitApp.swift; sourceTree = "<group>"; };
+		32FA11865E0555667CF8BE8A /* MovementDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementDetailView.swift; sourceTree = "<group>"; };
+		48677B72D60B0FDD736AEC22 /* interval.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = interval.wav; sourceTree = "<group>"; };
+		55D15569790DD3A7BA1764F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BBBFA3900A4F0BC70928227 /* MovementLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementLibrary.swift; sourceTree = "<group>"; };
+		61F7E3F6DAE0066C26EB5AFB /* WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTests.swift; sourceTree = "<group>"; };
+		6A9DCA72B94696EE5CA4C439 /* CFitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7265CA734A9D2C03E7457660 /* CFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFitUITests.swift; sourceTree = "<group>"; };
+		9FE431C62BC6166E28268685 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		AAF6E642FE8962166D613C47 /* countdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = countdown.wav; sourceTree = "<group>"; };
+		BE584F90FE064A326A0FF232 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1A181A65105F560E54F49AB /* WorkoutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStore.swift; sourceTree = "<group>"; };
+		E588560C1ACF5FDC4CA77259 /* WarmupPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmupPlan.swift; sourceTree = "<group>"; };
+		E697E104788107E323589C78 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F940F08D08A4B2C7F96ACBDB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FBF7E6055584FED4BF553E00 /* CFit.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A069D15B7EB91BDC7022CED /* CFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				61F7E3F6DAE0066C26EB5AFB /* WorkoutTests.swift */,
+			);
+			path = CFitTests;
+			sourceTree = "<group>";
+		};
+		41EB587A361A3B5A98E567F0 /* CFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7265CA734A9D2C03E7457660 /* CFitUITests.swift */,
+			);
+			path = CFitUITests;
+			sourceTree = "<group>";
+		};
+		6C502258799713F402E065C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7E6055584FED4BF553E00 /* CFit.app */,
+				6A9DCA72B94696EE5CA4C439 /* CFitTests.xctest */,
+				18025386BAE38D3EB753AB8F /* CFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7243AE40375B2324D0481843 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6E642FE8962166D613C47 /* countdown.wav */,
+				48677B72D60B0FDD736AEC22 /* interval.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82B6D072128AE7CD5E65C185 /* CFit */ = {
+			isa = PBXGroup;
+			children = (
+				55D15569790DD3A7BA1764F0 /* Assets.xcassets */,
+				2A7153AE44156FB754D564BD /* CFitApp.swift */,
+				BE584F90FE064A326A0FF232 /* HomeView.swift */,
+				E697E104788107E323589C78 /* Models.swift */,
+				32FA11865E0555667CF8BE8A /* MovementDetailView.swift */,
+				5BBBFA3900A4F0BC70928227 /* MovementLibrary.swift */,
+				F940F08D08A4B2C7F96ACBDB /* SettingsView.swift */,
+				E588560C1ACF5FDC4CA77259 /* WarmupPlan.swift */,
+				9FE431C62BC6166E28268685 /* WorkoutSession.swift */,
+				C1A181A65105F560E54F49AB /* WorkoutStore.swift */,
+				0BD827238F81377B7235C6AF /* WorkoutView.swift */,
+				7243AE40375B2324D0481843 /* Resources */,
+			);
+			path = CFit;
+			sourceTree = "<group>";
+		};
+		ABB840CF4A3FDC2C4C96F76A = {
+			isa = PBXGroup;
+			children = (
+				82B6D072128AE7CD5E65C185 /* CFit */,
+				1A069D15B7EB91BDC7022CED /* CFitTests */,
+				41EB587A361A3B5A98E567F0 /* CFitUITests */,
+				6C502258799713F402E065C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17058932CB9203A31E72FF2E /* CFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA6F3E9190BD49123AFFD16 /* Build configuration list for PBXNativeTarget "CFit" */;
+			buildPhases = (
+				AC9C01105EC79C0E02B8F874 /* Sources */,
+				53A292DF8844D13E4D738C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFit;
+			packageProductDependencies = (
+			);
+			productName = CFit;
+			productReference = FBF7E6055584FED4BF553E00 /* CFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		541FC2E99CBCCCAA9DC1322E /* CFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF49CAEBE8BE9E4E2BA37A5 /* Build configuration list for PBXNativeTarget "CFitUITests" */;
+			buildPhases = (
+				F3079759D67E85A6A38C9CD0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5BC12C09A099C588384D23E /* PBXTargetDependency */,
+			);
+			name = CFitUITests;
+			packageProductDependencies = (
+			);
+			productName = CFitUITests;
+			productReference = 18025386BAE38D3EB753AB8F /* CFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F2D91817A17CAB8BBDCCF180 /* CFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA228BAD14687D154C82907 /* Build configuration list for PBXNativeTarget "CFitTests" */;
+			buildPhases = (
+				948DB4A6F5D90CFF55127113 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAEE34619CCEA7BF87B08FBC /* PBXTargetDependency */,
+			);
+			name = CFitTests;
+			packageProductDependencies = (
+			);
+			productName = CFitTests;
+			productReference = 6A9DCA72B94696EE5CA4C439 /* CFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C45D1FCB8C1260B614F07D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					17058932CB9203A31E72FF2E = {
+						ProvisioningStyle = Automatic;
+					};
+					541FC2E99CBCCCAA9DC1322E = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17058932CB9203A31E72FF2E;
+					};
+					F2D91817A17CAB8BBDCCF180 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C931ED7A2C1B5946D5BFE082 /* Build configuration list for PBXProject "CFit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = ABB840CF4A3FDC2C4C96F76A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6C502258799713F402E065C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17058932CB9203A31E72FF2E /* CFit */,
+				F2D91817A17CAB8BBDCCF180 /* CFitTests */,
+				541FC2E99CBCCCAA9DC1322E /* CFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53A292DF8844D13E4D738C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60AF42BE2A9D67AF698F586 /* Assets.xcassets in Resources */,
+				F63722E0CAD776EDEC5FF7A2 /* countdown.wav in Resources */,
+				D08AB413F55D4172030FF17D /* interval.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		948DB4A6F5D90CFF55127113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69788761D763347B9F902D5 /* WorkoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C01105EC79C0E02B8F874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCC23AB59B0993360134587 /* CFitApp.swift in Sources */,
+				B112DB66F16DF5648F82FAA1 /* HomeView.swift in Sources */,
+				4E3D46C763954488D50071E8 /* Models.swift in Sources */,
+				C6D6A85C9D9AD1FA9A0EDDB7 /* MovementDetailView.swift in Sources */,
+				FDC041128DF855A27815D34D /* MovementLibrary.swift in Sources */,
+				44589E6399F6AF625528D2BA /* SettingsView.swift in Sources */,
+				89BC11FA14559B92CF3E0F68 /* WarmupPlan.swift in Sources */,
+				1512E69FB40A6CF2D138321C /* WorkoutSession.swift in Sources */,
+				ABD995B36F58467817406E15 /* WorkoutStore.swift in Sources */,
+				B903B8DD3F56E52DF0702571 /* WorkoutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3079759D67E85A6A38C9CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F2DA2C66C4B0E51822227E /* CFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5BC12C09A099C588384D23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17058932CB9203A31E72FF2E /* CFit */;
+			targetProxy = EFC9CDA586A8E4330DC7EAC2 /* PBXContainerItemProxy */;
+		};
+		DAEE34619CCEA7BF87B08FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17058932CB9203A31E72FF2E /* CFit */;
+			targetProxy = 9A8C776643DB39182DFCFAE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		361E4CCA37AA5F299D761840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chad.CFitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFit.app/CFit";
+			};
+			name = Debug;
+		};
+		3B47D2A6881FD07E79C793C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chad.CFitUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFit;
+			};
+			name = Release;
+		};
+		482AF31584CC9EA6977B79AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CFit;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chad.cfit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		824311602AFAB0CBF525416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chad.CFitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFit.app/CFit";
+			};
+			name = Release;
+		};
+		A53C8829D9650C965904781B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E1C4B1373EB2DC7A5BD154D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9FFC425A3F86DB2BFA4CB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CFit;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chad.cfit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBEA1A40D8BC9DBDE3692148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chad.CFitUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFit;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFA228BAD14687D154C82907 /* Build configuration list for PBXNativeTarget "CFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E4CCA37AA5F299D761840 /* Debug */,
+				824311602AFAB0CBF525416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C931ED7A2C1B5946D5BFE082 /* Build configuration list for PBXProject "CFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C4B1373EB2DC7A5BD154D9 /* Debug */,
+				A53C8829D9650C965904781B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFF49CAEBE8BE9E4E2BA37A5 /* Build configuration list for PBXNativeTarget "CFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEA1A40D8BC9DBDE3692148 /* Debug */,
+				3B47D2A6881FD07E79C793C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAA6F3E9190BD49123AFFD16 /* Build configuration list for PBXNativeTarget "CFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482AF31584CC9EA6977B79AF /* Debug */,
+				E9FFC425A3F86DB2BFA4CB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C45D1FCB8C1260B614F07D /* Project object */;
+}
