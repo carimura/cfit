@@ -1,6 +1,6 @@
 # CFit
 
-A personal native iPhone app for randomized, equipment-aware CrossFit-style workouts with guided work/rest timers and optional YouTube form demonstrations. Built with SwiftUI for iOS 17+, with no third-party dependencies or backend.
+A personal native iPhone app for randomized, equipment-aware functional fitness workouts with guided work/rest timers and optional YouTube form demonstrations. Built with SwiftUI for iOS 17+, with no third-party dependencies or backend.
 
 Each session starts with a guided warm-up (0–5 minutes, default 5), followed by a workout that defaults to 20 minutes. Initial equipment includes a barbell and plates, dumbbells, resistance bands, a squat cage with a pull-up bar, a jump box, and a wall.
 
@@ -46,8 +46,6 @@ xcodebuild -project CFit.xcodeproj -scheme CFit \
 
 Choose an available simulator name if yours differs. Unit tests cover inventory filtering, advanced wall opt-in, interval accounting, exact boundaries, pause/resume, movement replacements, and persisted settings. UI tests exercise workout controls, form guides, background pausing, and live work/rest/next-movement transitions.
 
-Validated September 25, 2026 with Xcode 26.5 on the iPhone 17 Pro simulator (iOS 26.5): all 17 tests passed. Coverage includes warm-up duration and equipment filtering, transition into the full WOD, skipping while paused, countdown cues, and live work/rest transitions. Full-suite results are in `build/WarmupSimpleUI.xcresult`; the final two UI tests also passed with interval-preference restoration verified in `build/SimpleUIFinal.xcresult`. Screenshots are in `build/final-screenshots/` (local generated artifacts).
-
 ## Files
 
 - `CFit/Models.swift`: equipment, generation, interval schedule, and clock.
@@ -57,4 +55,3 @@ Validated September 25, 2026 with Xcode 26.5 on the iPhone 17 Pro simulator (iOS
 - `CFit/WorkoutSession.swift`: timer, audio, haptics, and wake state.
 - `CFit/*View.swift`: native screens.
 - `CFitTests/`, `CFitUITests/`: automated validation.
-- [PLAN.md](PLAN.md): scope and design decisions.

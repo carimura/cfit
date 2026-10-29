@@ -2,7 +2,7 @@ import Foundation
 
 enum MovementLibrary {
     private static func movement(_ id: String, _ name: String, _ pattern: Pattern, _ equipment: Set<Equipment>, _ cue: String, _ video: String, advanced: Bool = false, source: String? = nil, about: String) -> Movement {
-        Movement(id: id, name: name, pattern: pattern, equipment: equipment, advanced: advanced, cue: cue, videoID: video, source: source ?? "https://www.crossfit.com/essentials/the-\(id)", about: about)
+        Movement(id: id, name: name, pattern: pattern, equipment: equipment, advanced: advanced, cue: cue, videoID: video, source: source ?? "https://www.youtube.com/watch?v=\(video)", about: about)
     }
 
     // Direct demonstrations; provenance and review notes are in VIDEO_SOURCES.md.

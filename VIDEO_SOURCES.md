@@ -1,8 +1,6 @@
 # Exercise video sources
 
-Reviewed September 25, 2026. Direct video IDs were extracted from the official CrossFit movement pages where available, then checked against YouTube’s oEmbed title and creator metadata. Other demonstrations were located through their published YouTube pages. This verifies link identity and metadata availability, not a complete playback or coaching review. Videos remain hosted by their creators and can change or become unavailable.
-
-[CrossFit movement library](https://www.crossfit.com/crossfit-movements)
+Reviewed September 25, 2026. Each direct video ID was checked against YouTube’s oEmbed title and creator metadata. This verifies link identity and metadata availability, not a complete playback or coaching review. Videos remain hosted by their creators and can change or become unavailable.
 
 | Movement | Demonstration | Creator |
 | --- | --- | --- |
@@ -49,4 +47,4 @@ The warm-up combines general movement and mobility with light rehearsal of the s
 | Arm circles | [Arm Circles Dynamic Warmup](https://www.youtube.com/watch?v=P3dzI9opLGE) | Made Possible Personal Training |
 | Lunge & reach | [How to do Lunge With Overhead Reach](https://www.youtube.com/watch?v=faGH-tlwd_w) | Joanna Soh |
 
-General structure follows CrossFit’s description of a [typical class](https://www.crossfit.com/what-to-expect-from-a-crossfit-class) and [the purpose of the general warm-up](https://www.crossfit.com/essentials/purpose-of-the-general-warm-up). Five minutes is this app’s starting duration; users can pause for further preparation.
+Five minutes is this app’s starting duration; users can pause for further preparation.
